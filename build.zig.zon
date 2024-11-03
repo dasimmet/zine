@@ -3,16 +3,19 @@
     .version = "0.0.0",
     .dependencies = .{
         .supermd = .{
-            .url = "git+https://github.com/kristoff-it/supermd#a034ec48c8a01b26de50f479090716d3ed2152c9",
-            .hash = "122058e6f4ebd493d1c7f7c1e21549d2b2e5d9a1921dba758f3558d88a34a70384be",
+            .path = "../supermd",
+            // .url = "git+https://github.com/kristoff-it/supermd#a034ec48c8a01b26de50f479090716d3ed2152c9",
+            // .hash = "122058e6f4ebd493d1c7f7c1e21549d2b2e5d9a1921dba758f3558d88a34a70384be",
         },
         .scripty = .{
-            .url = "git+https://github.com/kristoff-it/scripty#df8c11380f9e9bec34809f2242fb116d27cf39d6",
-            .hash = "122014e78d7c69d93595993b3231f3141368e22634b332b0b91a2fb73a8570f147a5",
+            .path = "../scripty",
+            // .url = "git+https://github.com/kristoff-it/scripty#df8c11380f9e9bec34809f2242fb116d27cf39d6",
+            // .hash = "122014e78d7c69d93595993b3231f3141368e22634b332b0b91a2fb73a8570f147a5",
         },
         .superhtml = .{
-            .url = "git+https://github.com/kristoff-it/superhtml#36f37aa5aa440805f27d4a9f5203e616a303c6a1",
-            .hash = "1220dcb13f7d63fdb2d60f528de211e5c6284010a8ca37542b8ef9fe6d77f990cb3d",
+            .path = "../superhtml",
+            // .url = "git+https://github.com/kristoff-it/superhtml#36f37aa5aa440805f27d4a9f5203e616a303c6a1",
+            // .hash = "1220dcb13f7d63fdb2d60f528de211e5c6284010a8ca37542b8ef9fe6d77f990cb3d",
         },
         .ziggy = .{
             .url = "git+https://github.com/kristoff-it/ziggy#c66f47bc632c66668d61fa06eda112b41d6e5130",
